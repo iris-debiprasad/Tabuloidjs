@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",                   // Specify ECMAScript target version
+    "module": "CommonJS",                 // Use CommonJS module system
+    "outDir": "./dist",                   // Output directory for compiled files
+    "rootDir": "./src",                   // Root directory for source files
+    "strict": true,                       // Enable strict type-checking
+    "esModuleInterop": true,              // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true // Enforce consistent file naming
+  },
+  "include": ["src"],                     // Files to include
+  "exclude": ["node_modules"]             // Files to exclude
+}
